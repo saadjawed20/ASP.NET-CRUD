@@ -260,6 +260,17 @@
                                 </li>  
                             </ul>
 
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Sales Report</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li>
+                                    <a href="form-elements-component.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main"> Reports</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>  
+                            </ul>
+
 
 
                             
@@ -267,6 +278,27 @@
                             
                         </div>
                     </nav>
+
+                <div class="pcoded-content">
+                    <div class="card borderless-card">
+                                            <div class="card-block danger-breadcrumb">
+                                               
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item">
+                                                            <a href="#!">
+                                                                <i class="icofont icofont-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">Breadcrumb</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">Caption Breadcrumb</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                </div>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
